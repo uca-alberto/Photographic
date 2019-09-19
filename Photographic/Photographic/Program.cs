@@ -67,7 +67,7 @@ namespace Photographic
                 StaticData.oCnn = new Conexion(TipoBDEnum.SqlServer, server, db, owner, userx, passx);
                 Application.EnableVisualStyles();
                 Application.SetCompatibleTextRenderingDefault(false);
-                Application.Run(new Form1(Row));
+                Application.Run(new Photographic(Row));
                 StaticData.oCnn.Close();
             }
             //  }

@@ -1,6 +1,6 @@
 ﻿namespace Photographic
 {
-    partial class Form1
+    partial class Photographic
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -50,7 +50,7 @@
             // CapturarImagen
             // 
             this.CapturarImagen.Depth = 0;
-            this.CapturarImagen.Location = new System.Drawing.Point(447, 310);
+            this.CapturarImagen.Location = new System.Drawing.Point(495, 379);
             this.CapturarImagen.MouseState = MaterialSkin.MouseState.HOVER;
             this.CapturarImagen.Name = "CapturarImagen";
             this.CapturarImagen.Primary = true;
@@ -63,7 +63,7 @@
             // GuardarImagen
             // 
             this.GuardarImagen.Depth = 0;
-            this.GuardarImagen.Location = new System.Drawing.Point(631, 310);
+            this.GuardarImagen.Location = new System.Drawing.Point(701, 378);
             this.GuardarImagen.MouseState = MaterialSkin.MouseState.HOVER;
             this.GuardarImagen.Name = "GuardarImagen";
             this.GuardarImagen.Primary = true;
@@ -79,7 +79,7 @@
             this.pictureEdit1.Location = new System.Drawing.Point(447, 43);
             this.pictureEdit1.Name = "pictureEdit1";
             this.pictureEdit1.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
-            this.pictureEdit1.Size = new System.Drawing.Size(341, 261);
+            this.pictureEdit1.Size = new System.Drawing.Size(448, 329);
             this.pictureEdit1.TabIndex = 4;
             // 
             // materialLabel1
@@ -123,7 +123,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(907, 450);
             this.Controls.Add(this.Articulo_Row);
             this.Controls.Add(this.materialLabel2);
             this.Controls.Add(this.materialLabel1);

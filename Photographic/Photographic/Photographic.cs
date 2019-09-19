@@ -12,11 +12,11 @@ using System.Windows.Forms;
 
 namespace Photographic
 {
-    public partial class Form1 : Form
+    public partial class Photographic : Form
     {
         string arto= "";
         string RowArto = "";
-        public Form1(string Articulo)
+        public Photographic(string Articulo)
         {
             InitializeComponent();
             arto = Articulo;
